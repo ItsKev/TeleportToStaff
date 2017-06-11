@@ -1,0 +1,6 @@
+# TeleportToStaff plugin by ItsKev
+
+PlayerNotFound: '&6The player is not available!'
+TeleportRequest: '&6The player [Name] has send you a teleport request. You can accept it with /tpAccept [Name]!'
+NoRequestPending: '&6There is no teleport request from that player pending!'
+PlayerIsAlreadyStaff: '&6The player you want to add to the staff is already included.'

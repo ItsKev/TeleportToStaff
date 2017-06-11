@@ -1,0 +1,22 @@
+name: TeleportToStaff
+author: IstKev
+version: 1.0.0
+description: A small teleport plugin
+
+main: me.itskev.teleporttostaff.TeleportToStaff
+
+commands:
+  tpTo:
+    description: Teleports to a staff member
+    usage: "Usage: /tpTo [Name]"
+  tpAdd:
+    description: Add a staff member to the teleport list
+    usage: "Usage: /tpAdd [Name]"
+  tpAccept:
+    description: Accept the teleport request
+    usage: "Usage: /tpAccept [Name]"
+
+permissions:
+  teleport.Add:
+    description: Gives access to all the teleport add command
+    default: op
